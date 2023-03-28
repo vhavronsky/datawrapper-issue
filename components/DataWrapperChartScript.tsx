@@ -21,10 +21,6 @@ export const DataWrapperChartScript = ({
     const container = containerRef.current
 
     container?.appendChild(script)
-
-    return () => {
-      // container?.removeChild(script)
-    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 

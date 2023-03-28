@@ -1,6 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import classNames from 'classnames'
-import { useRef } from 'react'
 
 import { DataWrapperChartScript } from './DataWrapperChartScript'
 

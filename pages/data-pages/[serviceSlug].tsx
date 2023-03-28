@@ -3,9 +3,9 @@ import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 
 import Layout from '../../components/Layout'
-// import { TabsLayout } from '../../components/TabsLayout'
+import { TabsLayout } from '../../components/TabsLayout'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { TabsLayoutAlternative } from '../../components/TabsAlternative'
 
 const Chart: React.FC = () => {
   const router = useRouter()
@@ -30,7 +30,7 @@ const Chart: React.FC = () => {
   return (
     <Layout>
       <div>
-        <TabsLayoutAlternative tabs={tabs} />
+        <TabsLayout tabs={tabs} />
       </div>
     </Layout>
   )

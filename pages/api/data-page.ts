@@ -10,7 +10,6 @@ import {
 const dataPage = async (req, res) => {
   const slug = req.query?.slug
 
-  // IMPORTANT NOTE: if WE USE tabsExample2 INSTEAD OF tabsExample3 -> EVERYTHING WORKS PERFECT
   const tabs =
     slug === 'first-dashboard'
       ? getTabsSample1()
